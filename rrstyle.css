@@ -1,0 +1,81 @@
+body {
+    font-family: Arial;
+}
+
+header {
+    margin-top: 30px
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 10px;
+    max-height: 180px;
+    font-family: Georgia;
+    font-size: 55px
+}
+
+nav {
+    margin-top: 8px
+    padding: 100px;
+    text-align: center;
+    border: 3px solid #DDD;
+    border-radius: 8px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+}
+
+footer {
+    margin-top: 8px
+    margin-bottom: 100px;
+    text-align: center;
+    border: 3px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: Georgia;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+    height: 100px;
+    clear: both;
+
+}
+    
+ #main-content{
+    margin-top: 8px
+    margin-bottom: 100px;
+    text-align: center;
+    border: 3px solid #DDD;
+    border-radius: 8px;
+    padding: 20px;
+    height: 500px;
+    width:600px;
+    float: left; 
+    clear: both;
+}
+
+ #sidebar{
+    margin-top: 100px
+    margin-bottom: 100px;
+    text-align: center;
+    border: 3px solid #DDD;
+    border-radius: 8px;
+    padding: 20px;
+    height: 500px;
+    width: 250px
+    float:right ; 
+    clear: right; 
+}
+
+#profile-pic{
+    max-height: 200px: 
+    
+}
+
+}
+
+.links a:hover{
+color: white
+font-weight:bold;
+text-decoration:underline;
+
+}
