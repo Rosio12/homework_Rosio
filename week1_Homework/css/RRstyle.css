@@ -2,41 +2,80 @@ body {
     font-family: Arial;
 }
 
-h1 {
-    border: 1px solid #999;
+header {
+    margin-top: 30px
+    margin-bottom: 100px;
+    text-align: center;
+    padding: 10px;
+    max-height: 180px;
+    font-family: Georgia;
+    font-size: 55px
 }
 
-
-li {
-    border: 1px solid #DDD;
+nav {
+    margin-top: 8px
+    padding: 100px;
+    text-align: center;
+    border: 3px solid #DDD;
+    border-radius: 8px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
 }
 
-ol {
-    border: 1px solid #333;
-}
-.container {
-    margin: 8px;
+footer {
+    margin-top: 8px
+    margin-bottom: 100px;
+    text-align: center;
     border: 3px solid #DDD;
     border-radius: 8px;
     padding: 8px;
-    min-height: 232px;
+    font-family: Georgia;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+    height: 100px;
+    clear: both;
+
 }
-.box {
-    height: 200px;
-    width: 200px;
+    
+ #main-content{
+    margin-top: 8px
+    margin-bottom: 100px;
+    text-align: center;
+    border: 3px solid #DDD;
     border-radius: 8px;
-    padding: 8px;
+    padding: 20px;
+    height: 500px;
+    width:600px;
+    float: left; 
+    clear: both;
 }
-.box1 {
-    text-align: left;
-    border-top: 5px solid #000;
-    border-bottom: 5px solid #000;
-    border-left: 2px solid #DDD;
-    border-right: 2px solid #DDD;
+
+ #sidebar{
+    margin-top: 100px
+    margin-bottom: 100px;
+    text-align: center;
+    border: 3px solid #DDD;
+    border-radius: 8px;
+    padding: 20px;
+    height: 500px;
+    width: 250px
+    float:right ; 
+    clear: right; 
 }
-.box2 {
-    text-align: right;
-    border-top: 2px solid #DDD;
-    border-bottom: 2px solid #DDD;
-    border-left: 5px solid #000;
-    border-right: 5px solid #000;
+
+#profile-pic{
+    max-height: 200px: 
+    
+}
+
+}
+
+.links a:hover{
+color: white
+font-weight:bold;
+text-decoration:underline;
+
+}
