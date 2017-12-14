@@ -1,0 +1,23 @@
+/** HAVE FUN! :) **/
+.thumbnail {
+	display: inline-block;
+	width: 100px;
+}
+#menu{
+	border: 1px solid black; 
+
+}
+#menu a{
+	border: 1px solid red;
+	color: black;
+	font-family: arial;
+}
+
+p {
+	font-size: 10px
+}
+
+a {
+	font-size: 14px;
+	font-weight: bold;
+}

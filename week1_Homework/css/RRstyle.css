@@ -4,7 +4,7 @@ body {
 
 header {
     margin-top: 30px
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     text-align: center;
     padding: 10px;
     max-height: 180px;
@@ -66,14 +66,8 @@ footer {
     clear: right; 
 }
 
-#profile-pic{
-    max-height: 200px: 
     
-}
-
-}
-
-.links a:hover{
+.links a:hover {
 color: white
 font-weight:bold;
 text-decoration:underline;
