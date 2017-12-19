@@ -7,18 +7,16 @@ header {
     margin-bottom: 30px;
     text-align: center;
     padding: 10px;
-    max-height: 180px;
     font-family: Georgia;
-    font-size: 55px
+    font-size: 65px
 }
 
-nav {
-    margin-top: 8px
-    padding: 100px;
+#menu {
+    margin: 15px
+    padding: 10px;
     text-align: center;
-    border: 3px solid #DDD;
+    border: 8px solid white;
     border-radius: 8px;
-    height: 100px;
     background-color: black;
     color: white;
     font-variant: small-caps;
@@ -37,7 +35,6 @@ footer {
     font-variant: small-caps;
     height: 100px;
     clear: both;
-
 }
     
  #main-content{
@@ -47,29 +44,44 @@ footer {
     border: 3px solid #DDD;
     border-radius: 8px;
     padding: 20px;
-    height: 500px;
-    width:600px;
-    float: left; 
-    clear: both;
+    height: 800px;
 }
 
  #sidebar{
-    margin-top: 100px
+    margin-top: 8px
     margin-bottom: 100px;
     text-align: center;
     border: 3px solid #DDD;
     border-radius: 8px;
     padding: 20px;
-    height: 500px;
-    width: 250px
-    float:right ; 
-    clear: right; 
+    min-height: 500px;
 }
 
-    
+#submit{
+    margin-top: 8px
+    margin-bottom: 100px;  
+}
+
+#iframe{
+    height: 200px
+    width: 300px
+}
+
+.links a {
+    display: inline-block;
+    margin: 10px;
+}
 .links a:hover {
 color: white
 font-weight:bold;
 text-decoration:underline;
 
+}
+
+
+.P{
+    text-align: center;
+    background: black;
+    color: red;
+    font-family: helvetica;
 }
