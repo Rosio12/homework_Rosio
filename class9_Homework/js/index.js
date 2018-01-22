@@ -1,0 +1,9 @@
+//Declare a variable and assign a value
+var event ='click'
+
+$('#Wanna-see-where-I-wanna-go').on('click', displayImage);
+
+function displayImage(){
+    $('#Display_img').show('src','./images/maldives-resorts-gili-lankanfushi.jpg');
+    console.log("#yourButton was clicked");
+}
