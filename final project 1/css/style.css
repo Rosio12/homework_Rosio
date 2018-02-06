@@ -1,0 +1,27 @@
+footer {
+    margin-top: 8px
+    margin-bottom: 100px;
+    text-align: center;
+    border: 3px solid #DDD;
+    border-radius: 8px;
+    padding: 8px;
+    font-family: arial;
+    background-color: black;
+    color: white;
+    font-variant: small-caps;
+    height: 150px;
+    clear: both;
+
+}
+
+#sicons ul li {
+  margin:0 auto;
+  padding:2px;
+  display: inline;
+  text-align: center;
+}
+
+#input-group-search {
+
+
+}
