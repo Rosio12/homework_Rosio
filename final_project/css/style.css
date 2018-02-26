@@ -1,0 +1,128 @@
+
+body {
+  border: 3px solid #DDD;
+  padding: 30px;
+}
+
+
+
+h3 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+ul{
+  border:none;
+}
+
+#content {
+
+}
+
+
+#collections-products ul li {
+
+  padding: 15px;
+  font-size: 15px; 
+  text-align: center;
+  margin: auto;
+}
+
+
+#sicons {
+  text-align: left;
+  color: black;
+
+}
+
+#sicons ul {
+  padding: 0;
+  margin: 0;
+}
+
+#sicons ul li {
+  padding: 3px;
+  text-align: center;
+  color: black;
+  display: inline;
+}
+
+#shopbag {
+  max-height: 100px;
+  text-align: left;
+  border: none;
+  margin-right: 110px;
+}
+#shopbag-img img {
+  max-height: 40px;
+  display: inline;
+  border:none;
+}
+
+#video{
+  padding: 20px;
+  align-self: center;
+}
+
+#contact {
+  align-items: center;
+}
+
+#Footer {
+    margin-top: 8px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 200px;
+    font-size: 12px;
+
+}
+
+.navbar {
+  position: fixed; 
+  top: 0px;
+  margin-bottom: 10px;
+  width: 100%; 
+  background-color: #fafdfe;
+  z-index:1;
+  margin-right: 30px;
+}
+
+.tab-pane{
+  text-align: center;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+
+.dropdown-toggle{
+  border: none; 
+  max-height: 60px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:80%;
+  padding-top: 100px;
+  min-height: 500px;
+}
+
+.card {
+  display: inline;
+}
+.cart-list {
+
+}
+
+.logo{ 
+  max-width: 
+  
+}
+
+/* Jonathan Boswell Code :) */
+.dropdown-menu {
+    background: none;
+    border: none;
+}
+
