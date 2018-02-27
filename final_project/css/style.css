@@ -21,6 +21,10 @@ ul{
 }
 
 
+#collections-products{
+  margin-top: 50px;
+}
+
 #collections-products ul li {
 
   padding: 15px;
@@ -87,6 +91,7 @@ ul{
   background-color: #fafdfe;
   z-index:1;
   margin-right: 30px;
+  margin:auto;
 }
 
 .tab-pane{
