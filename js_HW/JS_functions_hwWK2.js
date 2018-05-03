@@ -25,10 +25,28 @@ car.setDriver(person);
 console.log(car.driver);
 
 //
+// //Your code in the lines below
+// var vehicle = function() {
+//   name: "VespaGTS300Touring",
+//   console.log(vehicle.name());
+//   ],
 
-var vehicle = function() {
-  name: "VespaGTS300Touring",
-  console.log(vehicle.name());
+//   getcookie: function (index){
+//     return this.flavors[index];
+//   }
+
+// };
+
+// console.log(cookieVendingmachine.getcookie(1));
+
+
+// A clean version of what I think you're trying to do
+var cookieMachine = function() {
+  flavors: [
+    "Chocolate Chip",
+    "Sugar",
+    "Peanut Butter",
+    "Double Chocolate Chip",
   ],
 
   getcookie: function (index){
@@ -37,4 +55,4 @@ var vehicle = function() {
 
 };
 
-console.log(cookieVendingmachine.getcookie(1));
+console.log(cookieMachine.getcookie(1)); //Will print "Sugar"
